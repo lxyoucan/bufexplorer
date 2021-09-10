@@ -515,6 +515,7 @@ function! s:MapKeys()
     nnoremap <script> <silent> <nowait> <buffer> F             :call <SID>SelectBuffer("split", "st")<CR>
     nnoremap <script> <silent> <nowait> <buffer> m             :call <SID>MRUListShow()<CR>
     nnoremap <script> <silent> <nowait> <buffer> o             :call <SID>SelectBuffer()<CR>
+    nnoremap <script> <silent> <nowait> <buffer> l             :call <SID>SelectBuffer()<CR> 
     nnoremap <script> <silent> <nowait> <buffer> p             :call <SID>ToggleSplitOutPathName()<CR>
     nnoremap <script> <silent> <nowait> <buffer> q             :call <SID>Close()<CR>
     nnoremap <script> <silent> <nowait> <buffer> r             :call <SID>SortReverse()<CR>

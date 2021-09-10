@@ -14,6 +14,9 @@ With bufexplorer, you can quickly and easily switch between buffers by using the
 `\<Leader\>bv` force vertical split open
 
 
+没有找到修改快捷键的配置方法，只好修改源码了
+把`l`修改成`o`一样，打开文件
+
 Once the bufexplorer window is open you can use the normal movement keys (hjkl) to move around and then use <Enter> or <Left-Mouse-Click> to select the buffer you would like to open. If you would like to have the selected buffer opened in a new tab, simply press either <Shift-Enter> or 't'. Please note that when opening a buffer in a tab, that if the buffer is already in another tab, bufexplorer can switch to that tab automatically for you if you would like. More about that in the supplied VIM help.
 
 Bufexplorer also offers various options including:
@@ -97,3 +100,9 @@ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
 ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+### 修改说明
+- 增加l打开文件
+
+没有找到修改快捷键的配置方法，只好修改源码了
+把`l`修改成`o`一样，打开文件
